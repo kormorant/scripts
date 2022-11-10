@@ -6,3 +6,6 @@ This script asks you for an IP address and subnet, and will commence to ping all
 
 ## gameoflife.py
 A crappy implementation of Conway's game of life. Prints to the commandline, generations are simply printed below each other. Not much to it.
+
+## move-delete-downloads.sh
+A script that identifies downloads that haven't been touched in a while, and moves them to a different folder. From there, if they stay untouched, they are moved again, and after that, deleted. This requires certain folders to exist (see the script itself, should be self-explanatory).
